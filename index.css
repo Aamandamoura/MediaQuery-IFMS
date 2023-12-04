@@ -1,0 +1,119 @@
+body{
+  background-color: #AFEEEE;
+}
+
+.p1 {		
+  width: 100%;
+	height: 60px;
+	background-color: #7FFFD4;
+	float: left;
+}
+.nome{
+  width: 300px;
+  height:15px;
+  float: left;
+  margin-left:30px;
+}
+
+.menu {
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 1420px;
+	margin-top: 15px;
+}
+
+.p2{
+  width: 96.5%;
+  height: 300px;
+  background-color: #AFEEEE;
+  margin-left:30px;
+  float: left;  
+}
+
+.logo{
+  width: 100%;
+  height: 300px;
+  float: left;
+}
+
+.p3 {
+  width: 32.16%;
+  height: 400px;
+  margin-left: 650px;
+  background-color: #AFEEEE; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  float: left; 
+}
+
+.logo{
+  width: 100%;
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #7fc1bd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.p4{
+  width: 100%;
+  height:100px;
+  float: left;
+  margin-top: 100px;
+  background-color:#7FFFD4 ; 
+}
+
+h3{
+  margin-left: 850px;
+}
+
+p{
+  margin-left: 840px;
+}
+h2{
+  maregin-lef:500px;
+  margin-top: 1px;
+}
+@media only screen and (max-width: 760px) {
+    .p1,.p2,.p3,.p4, h3, p{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu{
+      width: 100%;
+      margin-left: 80%;
+    }
+}

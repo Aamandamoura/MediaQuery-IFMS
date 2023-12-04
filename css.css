@@ -1,0 +1,224 @@
+body{
+	background-color: #AFEEEE;
+}
+
+.p1{
+	width: 100%;
+	height:80px;
+	float: left;
+	background-color: #7FFFD4; 
+} 
+
+.nome{
+	width: 300px;
+	height:15px;
+	float: left;
+	margin-left:30px;
+}
+
+.menu{
+	width: 100px;
+	height:30px;
+	float: left;
+	margin-left:1420px;
+}
+
+.p2{
+	width: 96.5%;
+	height: 300px;
+	background-color: #AFEEEE;
+	margin-left:30px;
+	float: left; 
+}
+
+.logo{
+	width: 100%;
+	height: 300px;
+	float: left;
+}
+
+.p3{
+	width: 32.16%;
+	height: 700px;
+	margin-left:30px;
+	background-color: #AFEEEE;
+	float: left;
+}
+
+.p4{
+	width: 32.16%;
+	height: 700px;
+	background-color: #AFEEEE;
+	float: left;
+}
+.p5{
+	width: 32.16%;
+	height: 700px;
+	background-color: #AFEEEE;
+	float: left;
+}
+
+.quadrado{
+	width: 80%;
+	height: 200px;
+	background-color: #dabdaf;
+	margin-left:60px;
+	margin-top: 70px;
+	float: left;
+}
+
+.foto2{
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+
+.linha{
+	width: 90%;
+	height: 15px;
+	margin-left: 30px;
+	float: left;
+}
+
+.quadrado2{
+	width: 90%;
+	height: 300px;
+	margin-left:30px;
+	margin-top: 30px;
+	background-color: #d9d9d9;
+	float: left;
+}
+
+.foto6{
+	width: 100%;
+	height: 300px;
+	float: left;
+}
+
+.quadradinho{
+	width: 13%;
+	height: 70px;
+	margin-left:30px;
+	margin-top: 40px;
+	background-color: #d9d9d9;
+	float: left;
+}
+
+.foto7{
+	width: 100%;
+	height: 70px;
+	float: left;
+}
+.foto8{
+	width: 100%;
+	height: 70px;
+	float: left;
+}
+
+.linha2{
+	width: 72%;
+	height: 15px;
+	margin-left:30px;
+	margin-top: 40px;
+	float: left;
+}
+
+.p6{
+	width: 100%;
+	height:100px;
+	float: left;
+	background-color:#7FFFD4 ; 
+}
+
+h3{
+	margin-left: 850px;
+}
+
+p{
+	margin-left: 840px;
+}
+
+@media only screen and (max-width: 760px) {
+    .p1,.p2,.p3,.p4,.p5,.p6, h3, p{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .quadrado2,.foto2,.foto6,,.quadradinho,,.linha2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu{
+    	width: 100%;
+        margin-left: 80%;
+    }
+
+    .fotos
+    {
+    	width: 30%;
+	    height: 60px;
+    }
+    .linhas{
+    	display: flex;
+    	margin: right;
+
+    }
+    .linha2{
+    	display: flex;
+    	margin: right;
+    	margin-top: 200px;
+    }
+ 	.linha5{
+    	display: flex;
+    	margin-left: 140px;
+    	margin-top: 390px;
+    }
+    .linha2{
+    	display: flex;
+    	margin: right;
+    	margin-top: 200px;
+    }
+    .quadradinho{
+	width: 13%;
+	height: 70px;
+	margin-left: 50px;
+	margin-top: 20px;
+	background-color: #d9d9d9;
+	}
+
+ 	.linha8{
+    
+    	margin-left: 20px;
+
+
+    }
+    .foto7{
+	width: 100%;
+	height: 70px;
+	margin: left;
+
+    }
+
+ .foto8{
+	width: 13%;
+	margin:left;
+	margin-top: 20px;
+	}
+	
+    .linha9{
+	display: flex;
+    	margin: right;
+    	margin-top: 200px;
+    	margin-top: 300px;
+    }
+
+.p6{
+	width: 100%;
+	height:100px;
+	float: left;
+	background-color:#7FFFD4 ; 
+	margin-top: 300px;
+	}
+
+}
